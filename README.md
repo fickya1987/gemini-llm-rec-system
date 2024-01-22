@@ -38,7 +38,7 @@ Step 10 : Exit the app from the terminal by pressing Ctrl+C. <br>
 
 ## Demo 
 
-![](demo1/1.png)
+![](demo1_1.png)
 
 
 
