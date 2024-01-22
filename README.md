@@ -37,8 +37,26 @@ Step 9 : Hit 'Give me recommendations' button and 'Not quite, give me more recom
 Step 10 : Exit the app from the terminal by pressing Ctrl+C. <br> 
 
 ## Demo 
-
+1. Launching the application from command line 
 ![](demo1_1.png)
+
+2. Adding description of what I am looking for in the store (in natural language text) 
+![](demo1_2.png)
+
+3. Uploading body type image
+![](demo1_3.png)
+
+4. Uploading previous purchase images
+![](demo1_4.png)
+![](demo1_5.png)
+![](demo1_6.png)
+
+5. Hit 'Give me Recommendations' and see the LLM response
+![](demo1_7.png)
+
+6. Hit 'Not quite, give me more recommendations' if not satisfied
+![](demo1_8.png)
+
 
 
 
