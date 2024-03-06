@@ -23,7 +23,7 @@ def get_gemini_response(input_content):
 ## intialize streamlit app
 
 st.set_page_config(page_title='Gaman Personalized Recommendation System!')
-st.header('Welcome to our Personalized Recommendations!')
+st.header('Gaman Personalized Recommendations!')
 
 input_customer = st.text_input('Please add description of what kind of products or services you are looking for ...  ',key='input')
 uploaded_body_file = st.file_uploader("Please upload an image of your suggestion ", type=['jpg','jpeg','png'])
