@@ -22,12 +22,12 @@ def get_gemini_response(input_content):
 
 ## intialize streamlit app
 
-st.set_page_config(page_title='Welcome to Personalized Recommendations!')
+st.set_page_config(page_title='Gaman Personalized Recommendation System!')
 st.header('Welcome to our Personalized Recommendations!')
 
-input_customer = st.text_input('Please add description of what kind of clothing you are looking for ...  ',key='input')
-uploaded_body_file = st.file_uploader("Please upload an image of your body for customized suggestions ", type=['jpg','jpeg','png'])
-uploaded_history_files = st.file_uploader("Upload 2 image of your previous purchase", type=['jpg','jpeg','png'],accept_multiple_files=True)
+input_customer = st.text_input('Please add description of what kind of products or services you are looking for ...  ',key='input')
+uploaded_body_file = st.file_uploader("Please upload an image of your suggestion ", type=['jpg','jpeg','png'])
+uploaded_history_files = st.file_uploader("Please upload two images of your selected items", type=['jpg','jpeg','png'],accept_multiple_files=True)
 image = ""
 body_image = ""
 history_images = []
@@ -48,7 +48,7 @@ if uploaded_history_files is not None:
         history_image_1 = history_images[0]
         history_image_2 = history_images[1]
     else:
-        st.error("Note that in real world deployment, customer history would be retrieved from cloud bucket (e.g. Amazon S3)")
+        st.error("Please insert your selected Gaman E-Commerce items!")
 
 
 submit = st.button('Give me recommendations')
